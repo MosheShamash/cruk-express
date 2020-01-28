@@ -9,7 +9,7 @@ function App() {
   const [isVolunteerLogin, setIsVolunteerLogin] = useState(false);
   return (
     <div className="appRoot">
-      <img src={logo} className="App-logo" alt="logo" />
+      <img src={logo} className="logo" alt="logo" />
       {isVolunteerLogin ? (
         <VolunteerLogin />
       ) : (
