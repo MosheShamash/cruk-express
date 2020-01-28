@@ -1,7 +1,47 @@
 .appRoot {
   padding: 20px;
+  height: 90vh;
 }
 
 .title {
   font-size: 3em;
+  margin-bottom: 50px;
 }
+
+.logo {
+  width: 15%;
+}
+
+.textInput {
+  font-size: 2em;
+  /* border-radius: 8px; */
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  background-color: #2e3192;
+  border: none;
+  color: white;
+  margin: 20px;
+}
+
+.textInput::placeholder {
+  color: white;
+}
+
+.login-button {
+  background-color: #ec008c;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  font-size: 2em;
+  width: 30%;
+  border: none;
+  cursor: pointer;
+}
+
+/* .colors {
+  #ec008c - pink
+  #2e3192 - navy
+  #40c2f3 - light blue
+  #bdbbbc - grey
+} */

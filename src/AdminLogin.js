@@ -1,12 +1,20 @@
 import React from "react";
-import { useState } from "react";
-import "./App.css";
 import "./AdminLogin.css";
 
-function AdminLogin(setIsVolunteerLogin) {
+function AdminLogin({ setIsAdminLoggedIn }) {
+  const loginAdmin = () => {
+    setIsAdminLoggedIn(true);
+  };
   return (
     <div className="adminLoginWrapper">
-      <div className="title">Orgainser Login</div>
+      <div className="inputFields">
+        <div className="title">Organiser Login</div>
+        <input type="email" placeholder="Email" className="textInput" />
+        <input type="password" placeholder="Password" className="textInput" />
+        <button className="login-button" onClick={loginAdmin}>
+          Login
+        </button>
+      </div>
     </div>
   );
 }

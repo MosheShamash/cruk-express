@@ -1,3 +1,23 @@
 .volunteerLoginWrapper {
   display: flex;
+  height: 80vh;
+  width: 100vw;
+  overflow: none;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.checkBoxContainer {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  margin: 20px;
+}
+
+.checkBoxData {
+  padding: 20px;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
 }

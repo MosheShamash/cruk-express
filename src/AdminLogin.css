@@ -1,4 +1,31 @@
 .adminLoginWrapper {
   display: flex;
-  justify-content: center;
+  height: 80vh;
+  width: 100vw;
+  overflow: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputFields {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-event {
+  padding: 20px;
+  /* background-color: #40c2f3; */
+  background-color: #bdbbbc;
+
+  width: 30%;
+  text-align: center;
+}
+
+.start-event:hover {
+  cursor: pointer;
+  /* background-color: #bdbbbc; */
+  background-color: #40c2f3;
 }
